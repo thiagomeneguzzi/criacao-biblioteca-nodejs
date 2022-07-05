@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest ./test",
+    "cli": "node cli.js ./arquivos/texto1.md"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,10 @@
   },
   "homepage": "https://github.com/thiagomeneguzzi/criacao-biblioteca-nodejs#readme",
   "dependencies": {
-    "chalk": "^4.1.2"
+    "chalk": "^4.1.2",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "jest": "^28.1.2"
   }
 }
